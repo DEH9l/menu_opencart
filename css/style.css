@@ -1,0 +1,30 @@
+@import url(bootstrap.css);
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Source+Sans+Pro:wght@300;400;700&display=swap");
+.nav-link {
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  color: white; }
+
+.nav-item {
+  padding-right: 0;
+  padding-left: 1rem; }
+
+.collapse.show {
+  background-color: #9e171d; }
+
+section {
+  background-color: black; }
+
+.header-logo {
+  padding-bottom: 255px;
+  padding-top: 110px; }
+  .header-logo img {
+    width: 50px; }
+  .header-logo__SYDEY {
+    font-size: 27px; }
+  .header-logo__affrodable {
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder; }
+
+/*# sourceMappingURL=style.css.map */
