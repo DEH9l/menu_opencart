@@ -1,37 +1,14 @@
-@import "bootstrap.css";
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Source+Sans+Pro:wght@300;400;700&display=swap');
-
-@mixin Open-sans{
-  font-size: 13px;
-  font-family: 'Open Sans', sans-serif;
-  color: white;
-}
-.nav-link{
-  @include Open-sans
-}
-.nav-item{
-  padding-right: 0;
-  padding-left: 1rem;
-}
-.collapse.show{
-  background-color: #9e171d;
-}
-section{
+.menu{
   background-color: black;
-}
-.header-logo{
-  padding-bottom: 255px;
-  padding-top: 110px;
-  img{
-    width: 50px;
-  }
-  &__SYDEY{
-    font-size:27px;
-  }
-  &__affrodable{
-    font-size: 15px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bolder;
+  &__item{
+    a{
+      text-decoration: none;
+      color: white;
+    }
+    padding: 1rem;
+    filter: brightness(0.7);
+    &:hover{
+      filter: brightness(1);
+    }
   }
 }
